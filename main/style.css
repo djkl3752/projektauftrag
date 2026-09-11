@@ -9,8 +9,8 @@ body {
     background: lightgrey;
     margin: 0 auto;
     min-height: 100vh;
-    grid-template-columns: 150px auto 280px;
-    grid-template-rows: 120px auto 500px 120px;
+    grid-template-columns: 190px auto 280px;
+    grid-template-rows: 120px auto 400px 120px;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -26,27 +26,26 @@ header {
 footer {
     grid-area: footer;
     background-color: lightblue;
+    margin-top: 75px;
 }
 
 aside {
     grid-area: aside;
     background-color: lightgray;
+    margin-left: 10px;
 }
 
 .subnav {
     grid-area: subnav;
-    background-color: lightgray;
+    background-color: rgba(113, 102, 212, 0.527);
+    width: 190px;
+    display: flex;
 }
 
 nav {
     grid-area: nav;
     background-color: rgba(86, 77, 167, 0.712);
     height: 75px;
-}
-
-main {
-    grid-area: main;
-    background-color: white
 }
 
 .unseredienste {
@@ -56,23 +55,42 @@ main {
     background-color: white;
 }
 
-.linkipaidxforthisshirt {
-    display: flex;
-}
-
 .navlinks {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     font-size: 30px;
-    text-decoration: none;
-    text-align: center;
+    align-items: center;
 }
 
 .footerlinks {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
 }
 
+ul {
+    border: 2px solid darkgray;
+    border-radius: 8px;
+    font-style: italic;
+}
 
+.copyright {
+    font-size: 15px;
+}
+
+.linkipaidxforthishirt {
+    color: black;
+}
+
+.shirtwhite {
+    margin-left: 10px;
+}
+
+.bildschwarz {
+    
+}
 
 
 

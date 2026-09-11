@@ -1,11 +1,28 @@
 .partner {
     text-decoration: none;
+    color: white;
 }
 
 .kontakt {
     text-decoration: none;
+    color: white;
 }
 
 .aboutus {
     text-decoration: none;
+    color: white;
+}
+
+.impressum {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.terms {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
