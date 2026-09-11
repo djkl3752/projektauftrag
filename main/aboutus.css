@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.titelaboutus {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 41, 139);
+    color: white;
+    margin: 10px;
+}
+
+.steckbrieflen {
+    display: flex;
+    color: white;
+}
+
+.beschreibunglen {
+    color: white;
+}
