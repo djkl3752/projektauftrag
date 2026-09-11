@@ -58,8 +58,21 @@ main {
 
 .linkipaidxforthisshirt {
     display: flex;
-    
 }
+
+.navlinks {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footerlinks {
+    display: flex;
+}
+
+
 
 
 
